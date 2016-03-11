@@ -1,0 +1,11 @@
+---
+applications:
+- name: democfrajrana
+  memory: 512M
+  instances: 1
+  host: democfrajrana
+  path: target/democfrajrana-1.0.war
+  domain: cfapps.io
+  services:
+    - gmysqldb01
+    - mysql
